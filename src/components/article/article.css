@@ -1,0 +1,19 @@
+.gpt3__blog-container_article {
+    display: grid;
+    background: var(--color-footer);
+    margin: 2rem 0;
+    
+}
+
+
+.gpt3__blog-container_article-content div {
+   padding: 1rem 0;
+}
+
+.gpt3__blog-container_article-content p, h3, p:last-child {
+    text-align: center;
+}
+
+.gpt3__blog-container_article-content p:last-child {
+    cursor: pointer;
+}

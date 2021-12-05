@@ -1,0 +1,27 @@
+.gpt3__features {
+    display: grid;
+    width: 100%;
+}
+
+
+
+.gpt3__features-heading p {
+    color: var(--color-subtext);
+}
+
+.gpt3__features-container {
+    margin: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (min-width:800px) {
+    .gpt3__features-heading {
+        width: 60%;
+    }
+    .gpt3__features {
+      grid-template-columns:1fr 1fr;
+    }
+}

@@ -1,0 +1,35 @@
+.gpt3__cta {
+    display: grid;
+    border: var(--shadow-4);
+    color: var(--white);
+    padding: 2rem;
+    border-radius: var(--borderRadius);
+    background: var(--gradient-bar);
+}
+
+.gpt3__cta-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width:230px) {
+    .gpt3__cta-content h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .gpt3__cta {
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .gpt3__cta-content {
+        flex: 1;
+    }
+    .gpt3__cta-content h3 {
+        font-size: 1.953rem;
+    }
+}

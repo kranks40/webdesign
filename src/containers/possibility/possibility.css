@@ -1,0 +1,33 @@
+.gpt3__possibility {
+    display: grid;
+    gap: 2rem;
+    /* background: var(--primary-300); */
+}
+
+.gpt3__possibility-content h4 {
+    color: var(--white);
+    padding: 1em 0;
+}
+.gpt3__possibility-content h4:last-child {
+    color: var(--color-subtext);
+}
+
+@media screen and (min-width:850px) {
+    .gpt3__possibility {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .gpt3__possibility-image {
+        max-width: 45%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .gpt3__possibility-content {
+        max-width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

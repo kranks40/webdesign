@@ -1,0 +1,75 @@
+.gpt3__footer {
+    display: grid;   
+    background: var(--color-footer);
+}
+
+.gpt3__footer-heading {
+    width: 100%;
+    text-align: center;
+}
+
+.gpt3__footer-heading h1 {
+    text-align: center;
+}
+
+.gpt3__footer-button {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.gpt3__footer-links {
+    display: grid;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.gpt3__footer-links_logo {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.gpt3__footer-links_div {
+    display: grid;
+    padding: 2rem 0;
+    text-align: center;
+    
+}
+
+.gpt3__footer-links_div p {
+    cursor: pointer;
+}
+
+.gpt3__footer-links_div h4 {
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.gpt3__footer-copyright {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.gpt3__footer-copyright a {
+    color: var(--primary-500);
+  }
+
+@media screen and (min-width:600px) {
+    .gpt3__footer-links {
+       grid-template-columns: repeat(3, 1fr);
+       gap: 3rem;
+       
+    }
+    .gpt3__footer-links_div {
+        display: grid;
+        align-items: flex-start;
+        justify-content: flex-start;
+        justify-content: space-between;
+    }
+}
+

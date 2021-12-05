@@ -1,0 +1,14 @@
+.gpt3__brand {
+    display: grid;
+    gap: 1rem 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 3rem 0;
+}
+
+@media screen and (min-width: 1010px) {
+    .gpt3__brand {
+      display: flex;
+      justify-content: center;
+    }
+}
